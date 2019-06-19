@@ -1,0 +1,51 @@
+/** 
+ * MusicMaster 
+ * COGS 121, Spring 2019
+ * June 5, 2019 
+ * Final Project
+ *
+ * Summary. 
+ * This file contains the CSS code to transform the style and layout of the index page (home page).
+ *
+ * Description.
+ * Specifically, this file contains the CSS code to standardize the text font and size, color scheme,
+ * and layout of the index page. That way, we have the Saved Music icon in the top left corner,
+ * app logo in the center with the introductory text, and the vinyl records icons that act as 
+ * buttons to search by either a BPM value or a song title to receive a list of song recommendations. 
+ *
+ * @file   style.css.
+ */
+
+/* CSS to update the style of the body, headers, buttons, and text of search pages */
+body {
+  background-color: #b7d2e4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 950px 590px;
+  background-position: center top;
+}
+
+/* CSS for the home buttons, which are the vinyl record icons, to match with DJ image */
+div#homebuttons {
+  margin-top: 270px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.indexImage {
+  height: 250px;
+  width: 250px;
+  padding-left: 67px;
+  padding-right: 67px;
+  padding-top: 40px;
+}
+
+/* CSS for saved music icon, which is in the top left corner, to access the user's saved music */
+#savedMusicButton {
+  height: 115px;
+  width: 115px;
+}
